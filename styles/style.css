@@ -1,7 +1,5 @@
 html {
-  /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 10px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
   font-family: Comic Relief;
 }
 h1 {
@@ -43,5 +41,27 @@ body {
 .header h1 {
   margin: 0;
   font-size: 60px;
-  color: #00539f;
+  color: #007a16;
 }
+a.button {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+}
+
+a.button:hover {
+  background-color: #005fa3;
+}
+.top-nav {
+  display: flex;
+  justify-content: flex-end; /* push links to the right */
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
