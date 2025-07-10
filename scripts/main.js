@@ -8,5 +8,8 @@ myImage.addEventListener("click", () => {
     myImage.setAttribute("src", "images/me.jpg");
   }
 });
+function goBack() {
+  window.history.back();
+}
 
 
